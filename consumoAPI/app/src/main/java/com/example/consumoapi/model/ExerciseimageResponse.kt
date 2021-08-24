@@ -1,8 +1,8 @@
 package com.example.consumoapi.model
 
-data class exercicios(
+data class ExerciseimageResponse(
     val count: Int,
     val next: String,
     val previous: Any,
-    val results: List<Result>
+    val results: List<ResultExImg>
 )
